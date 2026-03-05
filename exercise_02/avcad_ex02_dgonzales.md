@@ -8,23 +8,23 @@ In this exercise, two data visualization produced by the Deutsche Bank Research 
 
 **Figure 1** <br>
 *Cumulative Confirmed Coronavirus [COVID-19] Cases*
-![image_1](./graphs/graph_1.png)
+<img src="./graphs/graph_1.png" width="500">
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people*
-![image_2](./graphs/graph_2.png)
+<img src="./graphs/graph_2.png" width="500">
 
 ### Q1. Main visualization goal (audience)
 
 **Figure 1** <br>
 *Cumulative Confirmed Coronavirus [COVID-19] Cases*
-![image_1](./graphs/graph_1.png)
+<img src="./graphs/graph_1.png" width="500">
 
 The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether its speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessman or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people*
-![image_2](./graphs/graph_2.png)
+<img src="./graphs/graph_2.png" width="500">
 
 On the other hand, Figure 2 shows which countries have more or fewer doctors per person. It gives the audience the insight where different countries stand in terms of healthcare capacity. In this figure, the bar for the US was highlighted in red. This could be because Torsten Slok published the report for US-based clients. This emphasis in the figure helps them easily identify where US stands in the figure.
 
@@ -34,11 +34,11 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 **Figure 3** <br>
 *Visualization Wheel for Figure 1: Cumulative Confirmed Coronavirus [COVID-19] Cases*
-![vizwheel_1](./graphs/vizwheel_fig1.png)
+<img src="./graphs/vizwheel_fig1.png" width="500">
 
 **Figure 4** <br>
 *Visualization Wheel for Figure 2: Number of Physicians per 1000 people*
-![vizwheel_2](./graphs/vizwheel_fig2.png)
+<img src="./graphs/vizwheel_fig2.png" width="500">
 
 
 **Table 1** <br>
@@ -56,7 +56,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 **Figure 1** <br>
 *Cumulative Confirmed Coronavirus [COVID-19] Cases*
-![image_1](./graphs/graph_1.png)
+<img src="./graphs/graph_1.png" width="500">
 
 #### Drawbacks observed for Figure 1
 1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the the dominance of high-count countries compared to what the data actually shows.
@@ -68,7 +68,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people*
-![image_2](./graphs/graph_2.png)
+<img src="./graphs/graph_2.png" width="500">
 
 #### Drawbacks observed for Figure 2
 1. All 22 countries shows the same data so all bars should have the same color. The red color bar of US portrays the concenpt of emphasis to steer viewer's interpretation rather than letting the data speak for itself.
@@ -80,7 +80,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 **Figure 1** <br>
 *Cumulative Confirmed Coronavirus [COVID-19] Cases*
-![image_1](./graphs/graph_1.png)
+<img src="./graphs/graph_1.png" width="500">
 
 Suitable variables in Figure 1:
 - X-axis. The x-axis uses uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
@@ -95,7 +95,7 @@ Not Suitable variables in Figure 1:
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people*
-![image_2](./graphs/graph_2.png)
+<img src="./graphs/graph_2.png" width="500">
 
 Suitable variables in Figure 2:
 - Bar length. Representation is directly proportional to the number of doctors per 1000 person.
