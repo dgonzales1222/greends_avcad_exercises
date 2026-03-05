@@ -1,4 +1,5 @@
 # **Analysis and Visualization of Complex Data**
+## Exercise 2
 Danilo III O. Gonzales (SN: 29225) <br>
 Master's in Green Data Science
 
@@ -14,9 +15,17 @@ In this exercise, two data visualization produced by the Deutsche Bank Research 
 ![image_2](./graphs/graph_2.png)
 
 ### Q1. Main visualization goal (audience)
-#### Figure 1
+
+**Figure 1** <br>
+*Cumulative Confirmed Coronavirus [COVID-19] Cases*
+![image_1](./graphs/graph_1.png)
+
 The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether its speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessman or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
-#### Figure 2
+
+**Figure 2** <br>
+*Number of Physicians per 1000 people*
+![image_2](./graphs/graph_2.png)
+
 On the other hand, Figure 2 shows which countries have more or fewer doctors per person. It gives the audience the insight where different countries stand in terms of healthcare capacity. In this figure, the bar for the US was highlighted in red. This could be because Torsten Slok published the report for US-based clients. This emphasis in the figure helps them easily identify where US stands in the figure.
 
 ### Q2. Visualization dimensions using a visualization wheel
@@ -45,6 +54,10 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 ### Q3. Main drawbacks following Alberto Cairo and Eduard Tufte recommendations and principles
 
+**Figure 1** <br>
+*Cumulative Confirmed Coronavirus [COVID-19] Cases*
+![image_1](./graphs/graph_1.png)
+
 #### Drawbacks observed for Figure 1
 1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the the dominance of high-count countries compared to what the data actually shows.
 2. The chart uses both color and line style (dashed line was used for Japan, while solid for others). This can cause confusion since varying of line style can indicate a dimension that doesn't exist.
@@ -52,6 +65,10 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 4. In terms of data-ink ratio, several elements (chart junk) should be removed: redundant y-axis, x-axis labels for every single day which could just be in interval to make it look better, and the unlabeled dashed vertical line which doesn't give additional meaning to the graph.
 5. The legend requires viewers to match colors across distance. Direct labeling should be done instead.
 6. Using a log-scale is more appropriate to showcase the growth rate of COVID-19 cases. 
+
+**Figure 2** <br>
+*Number of Physicians per 1000 people*
+![image_2](./graphs/graph_2.png)
 
 #### Drawbacks observed for Figure 2
 1. All 22 countries shows the same data so all bars should have the same color. The red color bar of US portrays the concenpt of emphasis to steer viewer's interpretation rather than letting the data speak for itself.
@@ -61,10 +78,13 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 
 ### Q4.  Graphical variables used and whether they are suitable or not for the purpose.
 
-#### Figure 1
+**Figure 1** <br>
+*Cumulative Confirmed Coronavirus [COVID-19] Cases*
+![image_1](./graphs/graph_1.png)
+
 Suitable variables in Figure 1:
-- x-axis. The x-axis uses uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
-- y-axis. It is suitable but uses wrong scale. This should be log scale and not linear scale.
+- X-axis. The x-axis uses uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
+- Y-axis. It is suitable but uses wrong scale. This should be log scale and not linear scale.
 - Color hue of the line. Suitable but using nine colors kinda makes it harder to interpret given that France uses light fray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
 
 Not Suitable variables in Figure 1:
@@ -73,5 +93,18 @@ Not Suitable variables in Figure 1:
 - Dual Y-axis. Not suitable since both axes show the same value.
 - X-axis labels. Labeling every single day creates clutter and using intervals (3 to 5 days intervals) will make it look cleaner.
 
-#### Figure 2
+**Figure 2** <br>
+*Number of Physicians per 1000 people*
+![image_2](./graphs/graph_2.png)
+
 Suitable variables in Figure 2:
+- Bar length. Representation is directly proportional to the number of doctors per 1000 person.
+- Ranking of countries from left to right. The ranking immediately showed the ranking and comparison is easier.
+- Color hue. It is partially suitable. The author probably wants to emphasize the US since they cater to USA as its primary audience but in terms of the best practice for data visualization, this adds no value because it does not represent another data category.
+- Direct labels. Printed labels at the top of the bar follows the best practice.
+- X-axis labels. Suitable but could be better by doing horizontal bar graphs, as explained before.
+
+Not Suitable variables in Figure 2:
+- Horizontal ticks and grid lines. With direct labeling, the horizontal gridline is now just a chart junk. 
+- Bar orientation. Horizontal bar chart is more suitable to allow countries to be written horizontally.
+- Dual Y-axis. This should be removed since direct labeling was already performed.
