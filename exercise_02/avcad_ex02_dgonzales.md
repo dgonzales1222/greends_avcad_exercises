@@ -43,4 +43,35 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 |Originality vs. Familiarity|Mostly familiar. It is a line chart which is one of the common grahps.|Very familiar. Easy to read but nothing unique|
 |Novelty vs. Redundancy|Redundant. The left and right y-axes shows the same scale, which adds nothing.| Redundant. There is already a number label on top of the bar so the y-axis is not necessary.|
 
-### Q3. 
+### Q3. Main drawbacks following Alberto Cairo and Eduard Tufte recommendations and principles
+
+#### Drawbacks observed for Figure 1
+1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the the dominance of high-count countries compared to what the data actually shows.
+2. The chart uses both color and line style (dashed line was used for Japan, while solid for others). This can cause confusion since varying of line style can indicate a dimension that doesn't exist.
+3. The arrows drawn on China's line are added features not based on the data itself. 
+4. In terms of data-ink ratio, several elements (chart junk) should be removed: redundant y-axis, x-axis labels for every single day which could just be in interval to make it look better, and the unlabeled dashed vertical line which doesn't give additional meaning to the graph.
+5. The legend requires viewers to match colors across distance. Direct labeling should be done instead.
+6. Using a log-scale is more appropriate to showcase the growth rate of COVID-19 cases. 
+
+#### Drawbacks observed for Figure 2
+1. All 22 countries shows the same data so all bars should have the same color. The red color bar of US portrays the concenpt of emphasis to steer viewer's interpretation rather than letting the data speak for itself.
+2. Since every bar has its value on top, both y-axes should be removed together with the horizontal ticks.
+3. A confusing footnote was added. The author should clearly state when each data was obtained because the audience might compare countries using the data that may come from sources published at different years.
+4. A horizontal bar chart should be more appropriate to increase readability. A horizontal bar chart would allow country names to be printed horizontally.
+
+### Q4.  Graphical variables used and whether they are suitable or not for the purpose.
+
+#### Figure 1
+Suitable variables in Figure 1:
+- x-axis. The x-axis uses uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
+- y-axis. It is suitable but uses wrong scale. This should be log scale and not linear scale.
+- Color hue of the line. Suitable but using nine colors kinda makes it harder to interpret given that France uses light fray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
+
+Not Suitable variables in Figure 1:
+- Line style and weight. Introducing this variable adds additional confusion because audience might imply that there are other dimensions other than the three original dimensions.
+- Arrows on some lines. These are just chartjunk since they are just added there without giving additional meaning to the graph.
+- Dual Y-axis. Not suitable since both axes show the same value.
+- X-axis labels. Labeling every single day creates clutter and using intervals (3 to 5 days intervals) will make it look cleaner.
+
+#### Figure 2
+Suitable variables in Figure 2:
