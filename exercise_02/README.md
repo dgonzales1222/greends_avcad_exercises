@@ -20,7 +20,7 @@ In this exercise, two data visualization produced by the Deutsche Bank Research 
 *Cumulative Confirmed Coronavirus [COVID-19] Cases* <br>
 <img src="./graphs/graph_1.png" width="500">
 
-The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether it's speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessman or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
+The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether it's speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessmen or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people* <br>
@@ -30,7 +30,7 @@ On the other hand, Figure 2 shows which countries have more or fewer doctors per
 
 ### Q2. Visualization dimensions using a visualization wheel
 
-In this part, we will use Alberto Cairo's visualization wheel to evaluate both figures. Figures 3 and 4 shows the visualization wheel created for Figure 1 and 2. Table 1 shows the explanation for the dimension score. It can be observed that Figure 1's wheel extends more on the upper half (complex/deep) while Figure 2 extends into the lower half (more intelligible and shallower).
+In this part, we will use Alberto Cairo's visualization wheel to evaluate both figures. Figures 3 and 4 show the visualization wheel created for Figure 1 and 2. Table 1 shows the explanation for the dimension score. It can be observed that Figure 1's wheel extends more on the upper half (complex/deep) while Figure 2 extends into the lower half (more intelligible and shallower).
 
 **Figure 3** <br>
 *Visualization Wheel for Figure 1: Cumulative Confirmed Coronavirus [COVID-19] Cases* <br>
@@ -59,7 +59,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 <img src="./graphs/graph_1.png" width="500">
 
 #### Drawbacks observed for Figure 1
-1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the dominance of high-count countries compared to what the data actually shows.
+1. The text with second derivative on the top of the figure is misleading since the graph does not show rate of change. It also exaggerates the dominance of high-count countries compared to what the data actually shows.
 2. The chart uses both color and line style (dashed line was used for Japan, while solid for others). This can cause confusion since varying of line style can indicate a dimension that doesn't exist.
 3. The arrows drawn on China's line are added features not based on the data itself. 
 4. In terms of data-ink ratio, chart junks should be removed: redundant y-axis, x-axis labels for every single day which could just be in interval to make it look better, and the unlabeled dashed vertical line which doesn't give additional meaning to the graph.
@@ -85,7 +85,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 Suitable variables in Figure 1:
 - X-axis. The x-axis uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
 - Y-axis. It is suitable but uses wrong scale. This should be log scale and not linear scale.
-- Color hue of the line. Suitable but using nine colors kinda makes it harder to interpret given that France uses light gray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
+- Color hue of the line. Suitable but using nine colors makes it harder to interpret given that France uses light gray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
 
 Not Suitable variables in Figure 1:
 - Line style and weight. Introducing this variable adds additional confusion because audience might imply that there are other dimensions other than the three original dimensions.
