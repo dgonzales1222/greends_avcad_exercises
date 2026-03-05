@@ -20,7 +20,7 @@ In this exercise, two data visualization produced by the Deutsche Bank Research 
 *Cumulative Confirmed Coronavirus [COVID-19] Cases* <br>
 <img src="./graphs/graph_1.png" width="500">
 
-The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether its speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessman or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
+The main goal of the Figure 1 is to help its audience understand how fast COVID-19 is spreading in different countries and tell whether it's speeding up or slowing down. Since this was posted on a business institute, there is a huge chance that most of the people that visit the website are businessman or investors and aside from showing the number of confirmed cases through time per country, this can also help them gather insight on which market might stabilize or worsen.
 
 **Figure 2** <br>
 *Number of Physicians per 1000 people* <br>
@@ -30,7 +30,7 @@ On the other hand, Figure 2 shows which countries have more or fewer doctors per
 
 ### Q2. Visualization dimensions using a visualization wheel
 
-In this part, we will use Alberto Cairo's visualization wheel to evaluate both figures. Figures 3 and 4 shows the visualization wheel created for Figure 1 and 2. Table 1 shows the explanation for the dimension score.
+In this part, we will use Alberto Cairo's visualization wheel to evaluate both figures. Figures 3 and 4 shows the visualization wheel created for Figure 1 and 2. Table 1 shows the explanation for the dimension score. It can be observed that Figure 1's wheel extends more on the upper half (complex/deep) while Figure 2 extends into the lower half (more intelligible and shallower).
 
 **Figure 3** <br>
 *Visualization Wheel for Figure 1: Cumulative Confirmed Coronavirus [COVID-19] Cases* <br>
@@ -48,8 +48,8 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 |Abstraction vs. Figuration|Leans toward abstraction. No actual photos or objects were used and data was represented only using lines|Leans toward abstraction. No actual photos or objects were used and data was represented only using bar|
 |Functionality vs. Decoration|Mostly functional. Every element serves its purpose except the arrows which doesn't help much and is more of an additional decoration.|Very functional. Only the usage of the red color to emphasize where US stands is more of a decoration since this is sort of an editorial's choice.|
 |Density vs. Lightness|Dense. The graph shows data on nine countries in the span of 36 days. There's a lot going on and it takes more time to comprehend| Light. The graph consists of one number per country (n=22). It is much faster to digest.|
-|Multidimensionality vs. Unidimentionality|Moderately multidimensional. It portrays three values: number of days (x-axis), number of COVID-19 cases (y-axis), and country (color of line).|Unidimensional. Only shows one thing which is the number of doctors per country.|
-|Originality vs. Familiarity|Mostly familiar. It is a line chart which is one of the common grahps.|Very familiar. Easy to read but nothing unique|
+|Multidimensionality vs. Unidimensionality|Moderately multidimensional. It portrays three values: number of days (x-axis), number of COVID-19 cases (y-axis), and country (color of line).|Unidimensional. Only shows one thing which is the number of doctors per country.|
+|Originality vs. Familiarity|Mostly familiar. It is a line chart which is one of the common graphs. The only difference is the usage of normalization based on the days since 100 cases.|Very familiar. Easy to read but nothing unique|
 |Novelty vs. Redundancy|Redundant. The left and right y-axes shows the same scale, which adds nothing.| Redundant. There is already a number label on top of the bar so the y-axis is not necessary.|
 
 ### Q3. Main drawbacks following Alberto Cairo and Eduard Tufte recommendations and principles
@@ -59,10 +59,10 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 <img src="./graphs/graph_1.png" width="500">
 
 #### Drawbacks observed for Figure 1
-1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the the dominance of high-count countries compared to what the data actually shows.
+1. The text with second derivative on the top of the figure is kinda confusing since the graph does not show rate of change. It also exaggerates the dominance of high-count countries compared to what the data actually shows.
 2. The chart uses both color and line style (dashed line was used for Japan, while solid for others). This can cause confusion since varying of line style can indicate a dimension that doesn't exist.
 3. The arrows drawn on China's line are added features not based on the data itself. 
-4. In terms of data-ink ratio, several elements (chart junk) should be removed: redundant y-axis, x-axis labels for every single day which could just be in interval to make it look better, and the unlabeled dashed vertical line which doesn't give additional meaning to the graph.
+4. In terms of data-ink ratio, chart junks should be removed: redundant y-axis, x-axis labels for every single day which could just be in interval to make it look better, and the unlabeled dashed vertical line which doesn't give additional meaning to the graph.
 5. The legend requires viewers to match colors across distance. Direct labeling should be done instead.
 6. Using a log-scale is more appropriate to showcase the growth rate of COVID-19 cases. 
 
@@ -71,7 +71,7 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 <img src="./graphs/graph_2.png" width="500">
 
 #### Drawbacks observed for Figure 2
-1. All 22 countries shows the same data so all bars should have the same color. The red color bar of US portrays the concenpt of emphasis to steer viewer's interpretation rather than letting the data speak for itself.
+1. All 22 countries shows the same data so all bars should have the same color. The red color bar of US portrays the concept of emphasis to steer viewer's interpretation rather than letting the data speak for itself. Although, this is acceptable if the author originally wants to draw the attention of the main audience (US clients) to where the US currently stands.
 2. Since every bar has its value on top, both y-axes should be removed together with the horizontal ticks.
 3. A confusing footnote was added. The author should clearly state when each data was obtained because the audience might compare countries using the data that may come from sources published at different years.
 4. A horizontal bar chart should be more appropriate to increase readability. A horizontal bar chart would allow country names to be printed horizontally.
@@ -83,9 +83,9 @@ In this part, we will use Alberto Cairo's visualization wheel to evaluate both f
 <img src="./graphs/graph_1.png" width="500">
 
 Suitable variables in Figure 1:
-- X-axis. The x-axis uses uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
+- X-axis. The x-axis uses normalized values instead of actual calendar dates to allow fair comparison of growth rate.
 - Y-axis. It is suitable but uses wrong scale. This should be log scale and not linear scale.
-- Color hue of the line. Suitable but using nine colors kinda makes it harder to interpret given that France uses light fray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
+- Color hue of the line. Suitable but using nine colors kinda makes it harder to interpret given that France uses light gray while Italy uses gray. Direct labeling should be done instead of labels to increase readability.
 
 Not Suitable variables in Figure 1:
 - Line style and weight. Introducing this variable adds additional confusion because audience might imply that there are other dimensions other than the three original dimensions.
