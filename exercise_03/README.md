@@ -1,0 +1,1 @@
+Please open `CaseStudy1_univariate_analysis_visuals.ipynb` to view the exercise codes. 
