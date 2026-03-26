@@ -1,7 +1,7 @@
 # Analysis and Visualization of Complex Agro-Environmental Data (AVCAD)
 
 **Student:** Danilo III O. Gonzales (29225)  
-**Program:** MSc in Green Data Science in Agriculture  
+**Program:** MSc in Green Data Science
 **Institution:** Instituto Superior de Agronomia (ISA), Universidade de Lisboa  
 
 ---
