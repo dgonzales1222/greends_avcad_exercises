@@ -32,10 +32,8 @@ greends_avcad_exercises/
 
 ## Exercise Summaries
 
-### Exercise 1 — Data Import and Exploration
-- Importing and inspecting the EFIplus_medit dataset
-- Exploring data types, dimensions, and column names
-- Identifying and handling missing values
+### Exercise 1 — Wordcloud
+- Introductory Exercise to the Course
 
 ### Exercise 2 — Data Visualization Evaluation
 - Evaluating chart quality using Cairo and Tufte frameworks
